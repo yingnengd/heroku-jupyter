@@ -1,5 +1,11 @@
 name: root
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
 dependencies:
+  - python
+  - scipy
   - pip
   # bind notebook version (compatibility to pgcontents)
   - notebook = 4
@@ -20,4 +26,4 @@ dependencies:
   - nose
   - pip:
     - pgcontents==0.5.3
-    - git+https://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
+    - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
