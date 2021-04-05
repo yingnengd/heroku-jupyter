@@ -20,4 +20,4 @@ dependencies:
   - nose
   - pip:
     - pgcontents==0.5.3
-    - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
+    - git+https://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
