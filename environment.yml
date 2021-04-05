@@ -1,5 +1,11 @@
 name: heroku-jupyter
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
 dependencies:
+  - python
+  - scipy
   # bind notebook version (compatibility to pgcontents)
   - notebook = 4
   - ipywidgets
